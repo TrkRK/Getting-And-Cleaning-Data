@@ -26,5 +26,5 @@ The R code does the following:
 - renames the columns of the merged data using the features file
 - extracts from the merged data the columns that contain mean or standard deviation data, including the subject and activity columns
 - substitutes the label numbers in the extracted data by the corresponding activity names according to the 'activity_labels.txt' file
-- uses the data after all the steps above as input to filtering by activity and subject and calculating the mean of the columns
+- uses the data after all the steps above as input to filtering by activity and subject and calculating the mean of the columns (plyr package is required)
 - creates a file called "tidyData.txt" with the output
